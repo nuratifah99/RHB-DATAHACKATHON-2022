@@ -19,7 +19,7 @@ with st.expander("Car Insurance Calculator"):
     choose1, choose2, choose3, choose4 = st.columns(4)
     
     with choose1:
-        price = st.text_input('Car price (Market Value)(RM)',0)
+        price = st.text_input('Car price (RM)',0)
         Car_price = int(price)
         
     with choose2:
