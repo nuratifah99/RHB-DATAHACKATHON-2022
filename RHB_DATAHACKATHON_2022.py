@@ -1,10 +1,5 @@
-import numpy as np
 import pandas as pd
 import streamlit as st
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots 
-import plotly.figure_factory as ff
 
 # TITLE
 st.set_page_config(page_title = 'RHB DataHackathon 2022',page_icon = "chart_with_upwards_trend",layout = 'wide')
