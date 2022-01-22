@@ -67,7 +67,7 @@ with st.expander("Car Insurance Calculator"):
             NCDval = 0.3833
         elif NCD == 'Fourth year':
             NCDval = 0.45
-        elif NCD == 'Five year or more':
+        elif NCD == 'Five year and more':
             NCDval = 0.55
     if location == 'west_msia':
         basic_premium=comprehensive_cover_west + 26*(Car_price-1000)/1000
