@@ -19,7 +19,7 @@ with st.expander("Car Insurance Calculator"):
     choose1, choose2, choose3, choose4 = st.columns(4)
     
     with choose1:
-        price = st.text_input('Car price (RM)',0)
+        price = st.text_input('Car price (Market Value)(RM)',0)
         Car_price = int(price)
         
     with choose2:
@@ -57,16 +57,16 @@ with st.expander("Car Insurance Calculator"):
             comprehensive_cover_east = 359.5 
             
     with choose4:
-        NCD = st.selectbox("No Claim Discount",('First year', 'Second year', 'Third year', 'Fourth year', 'Five year and more'))
-        if NCD == 'First year':
+        NCD = st.selectbox("No Claim Discount",('First year-25%', 'Second year-30%', 'Third year-38.33%', 'Fourth year-45%', 'Five year and more-55%'))
+        if NCD == 'First year-25%':
             NCDval = 0.25
-        elif NCD == 'Second year':
+        elif NCD == 'Second year-30%':
             NCDval = 0.3
-        elif NCD == 'Third year':
+        elif NCD == 'Third year-38.33%':
             NCDval = 0.3833
-        elif NCD == 'Fourth year':
+        elif NCD == 'Fourth year-45%':
             NCDval = 0.45
-        elif NCD == 'Five year and more':
+        elif NCD == 'Five year and more-55%':
             NCDval = 0.55
     if location == 'west_msia':
         basic_premium=comprehensive_cover_west + 26*(Car_price-1000)/1000
