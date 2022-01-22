@@ -98,7 +98,7 @@ with st.expander("Car Insurance Calculator"):
       
     
 with st.expander("Feature 2"):
-    st.write('To be determined')
+    st.write('To be determined') 
     
 with st.expander("Feature 3"):
     st.write('To be determined')
