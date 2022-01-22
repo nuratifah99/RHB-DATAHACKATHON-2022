@@ -52,7 +52,7 @@ with st.expander("Car Insurance Calculator"):
         elif cc == '4400':
             comprehensive_cover_west = 469.6
             comprehensive_cover_east = 336.4
-        elif cc > 'more than 4400':
+        elif cc == 'more than 4400':
             comprehensive_cover_west = 501.3
             comprehensive_cover_east = 359.5 
             
