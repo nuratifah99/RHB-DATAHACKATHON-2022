@@ -27,7 +27,7 @@ with st.expander("Car Insurance Calculator"):
         location = st.selectbox("Location",('West Malaysia', 'East Malaysia'))
         if location == 'West Malaysia':
             location = 'west_msia'
-        elif location == 'West Malaysia':
+        elif location == 'East Malaysia':
             location = 'east_msia'
    
     with choose3:
